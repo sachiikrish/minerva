@@ -1,0 +1,35 @@
+.buttonsSearchContainer {
+  margin-top: 1rem;
+  background-color: rgb(216, 210, 210);
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 5rem;
+  width: max-content;
+}
+.buttonsContainer {
+  display: flex;
+  gap: 1rem;
+}
+.btn {
+  display: flex;
+  padding: 1rem 0.5rem 1rem 0.5rem;
+  border-radius: 0.375rem;
+  transition: ease 0.5s;
+  width: 180px;
+  height: 40px;
+}
+span {
+  width: 100%;
+}
+input {
+  width: 100%;
+  padding: 0.5rem 2.5rem 0.5rem 1rem;
+  border: solid 1px #828487;
+  border-radius: 0.4rem;
+  outline: none;
+  transition: 0.2s ease;
+}

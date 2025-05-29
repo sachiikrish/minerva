@@ -1,0 +1,10 @@
+.heading{
+    font-weight: 700;
+    font-size: 2.5rem;
+    letter-spacing: 0.025rem;
+}
+#headingContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
